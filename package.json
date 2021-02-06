@@ -1,0 +1,25 @@
+{
+  "name": "azure-pipelines-nodejs",
+  "version": "1.0.0",
+  "description": "Training how to setup CI/CD to azure pipelines",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezkemboi/azure-pipelines-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezkemboi/azure-pipelines-nodejs/issues"
+  },
+  "homepage": "https://github.com/ezkemboi/azure-pipelines-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
